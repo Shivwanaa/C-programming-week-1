@@ -1,2 +1,2 @@
-# C-programming-week-1
-week 1
+# C-programming-week-2
+week 2
