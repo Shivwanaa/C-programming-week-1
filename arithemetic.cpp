@@ -8,10 +8,10 @@ int main()
 	div=a/b;
 	mul=a*b;
 	modulus=a%b;
-	printf("addition is %d:",add);
-	printf("subraction is %d:",sub);
-	printf("division is %d:",div);
-	printf("multiplication is %d:",mul);
+	printf("addition is %d:\n",add);
+	printf("subraction is %d:\n",sub);
+	printf("division is %d:\n",div);
+	printf("multiplication is %d:\n",mul);
 	printf("the remainder is %d:",modulus);
 	
 
