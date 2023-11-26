@@ -9,14 +9,13 @@ int main(){
 	char s[100];
 	scanf("%s",s);
 	int l=strlen(s);
-	for(int i=0;s[i]!='\0';i++){
-		if(i==b-1){
-			s[i]=a;
-			for(int j=l;j>b;j--){
+	
+			
+	for(int j=l;j>b-1;j--){
 				s[j]=s[j-1];
 			}
-		}
-	}
+	
+	
+	s[b-1]=a;
 	printf("%s",s);
 }
-
