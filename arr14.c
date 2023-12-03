@@ -15,16 +15,15 @@ int main(){
 	        for(int k=j+1;k<n;k++)
 	            if(arr[i]+arr[j]+arr[k]==s){
 	                printf("%d %d %d\n",arr[i],arr[j],arr[k]);
-	                printf("True");
 	                c++;
 	            
 	        }
 	        
 	    }
-	    if(c>0){
-	        break;
-	    }
 	    
+	    }
+	    if(c>0){
+	        printf("True");
 	    }
 	    if(c==0){
 	        printf("false");
