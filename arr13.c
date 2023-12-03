@@ -14,16 +14,16 @@ int main(){
 	    for(int j=i+1;j<n;j++){
 	        if(arr[i]+arr[j]==s){
 	            printf("%d %d\n",arr[i],arr[j]);
-	            printf("True");
+	            
 	            c++;
 	            
 	        }
 	        
 	    }
-	    if(c>0){
-	        break;
-	    }
 	    
+	    }
+	    if(c>0){
+	        printf("True");
 	    }
 	    if(c==0){
 	        printf("false");
